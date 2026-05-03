@@ -1,0 +1,12 @@
+{
+  "name": "web",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"web dev server lands in Phase 4\"",
+    "build": "echo \"web build lands in Phase 4\"",
+    "lint": "echo \"web lint lands in Phase 4\"",
+    "typecheck": "echo \"web typecheck lands in Phase 4\""
+  }
+}

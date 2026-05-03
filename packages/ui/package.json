@@ -1,0 +1,10 @@
+{
+  "name": "@bny/ui",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "lint": "echo \"ui lint lands in Phase 4\"",
+    "typecheck": "echo \"ui typecheck lands in Phase 4\""
+  }
+}

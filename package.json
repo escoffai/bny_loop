@@ -1,0 +1,21 @@
+{
+  "name": "bny-loop",
+  "private": true,
+  "version": "0.0.1",
+  "description": "BNY LOOP monorepo — apps + packages workspace.",
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint": "pnpm -r --if-present run lint",
+    "typecheck": "pnpm -r --if-present run typecheck",
+    "test": "pnpm -r --if-present run test",
+    "build": "pnpm -r --if-present run build",
+    "dev": "pnpm --filter web dev"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  }
+}
